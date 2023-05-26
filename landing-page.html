@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Houses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bg45.avif');
+        }
+        
+        #header {
+            background-color: #0f0f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        #houses {
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        #about {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        #book {
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-top: 0;
+        }
+        
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        #footer {
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image: url('grunge-paint-background.avif');
+            background-size: 1600px;
+            font-weight: bolder;
+            font-style: italic;
+        }
+        
+        #footer p {
+            margin: 0;
+        }
+        
+        .contact-info {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .house-item {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .house-item h3 {
+            color: #333;
+            font-size: 20px;
+            margin-top: 0;
+        }
+        
+        .house-item p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        .house-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        
+        .book-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .book-form input[type="text"],
+        .book-form input[type="email"],
+        .book-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .book-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .book-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <p>Find your dream home with us</p>
+    </header>
+    
+    <section id="houses">
+        <h2>Houses for Sale</h2>
+        <div class="house-item">
+            <img src="C:\Users\HP\Downloads\house1.jpeg" alt="House 1">
+            <h3>House 1</h3>
+            <h3>7.9Cr</h3>
+        </div>
+        
+        <div class="house-item">
+            <img src="C:\Users\HP\Downloads\house2.jpeg" alt="House 2">
+            <h3>House 2</h3>
+            <h3>11.4Cr</h3>
+        </div>
+        
+        <div class="house-item">
+            <img src="C:\Users\HP\Downloads\house3.jpeg" alt="House 3">
+            <h3>House 3</h3>
+            <h3>15.5Cr</h3>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Real estate plays a significant role in various aspects of people's lives. It serves as a place to call home, providing shelter and security for individuals and families. It also serves as a source of investment and wealth creation, with many people buying properties to generate rental income or to benefit from appreciation in value over time.</p>
+    </section>
+    
+    <section id="book">
+        <h2>Book an Appointment</h2>
+        <div class="book-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <input type="submit" value="Book Now">
+            </form>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="contact-info">
+            <p>Contact us: <a href="tel:+123456789">+1 (234) 567-89</a></p>
+            <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>Address: 123 Main St, City, Country</p>
+        </div>
+        <p>&copy; 2023 Real Estate Agency. All rights reserved.</p>
+    </footer>
+</body>
+</html>
